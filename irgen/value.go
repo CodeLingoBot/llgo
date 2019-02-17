@@ -28,7 +28,7 @@ func newValue(v llvm.Value, t types.Type) *govalue {
 	return &govalue{v, t}
 }
 
-// TODO(axw) remove this, use .typ directly
+// Type: TODO(axw) remove this, use .typ directly
 func (v *govalue) Type() types.Type {
 	return v.typ
 }
